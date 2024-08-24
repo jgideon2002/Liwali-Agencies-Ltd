@@ -1,0 +1,165 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor:col-resize;
+}
+
+/* Basic styling for header */
+header {
+    background-color: #753be2;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Basic styling for navigation */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styling for sections */
+section {
+    padding: 40px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Styling for properties */
+.property {
+    margin-bottom: 40px;
+}
+
+.property img {
+    max-width: 30%;
+    height:20%
+    
+}
+/* Styling for the contact content section */
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    padding-top: 10rem !important;
+  }
+  
+  /* Styling for the h3 element within the contact content */
+  .contact-content > h3 {
+    color: rgb(0, 110, 255);
+    font-size: 4rem;
+  }
+  
+  /* Styling for the contact description section */
+  .contact-desc {
+    width: 50%;
+  }
+  
+  /*Styling for the h3 element within the contact description */
+  .contact-desc > h3 {
+    color: rgb(0, 110, 255);
+    margin-bottom: 1rem;
+  }
+  
+  /* Styling for paragraphs within the contact description */
+  .contact-desc > p {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    color: #6914e1;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  
+  /* Styling for text input */
+  input[type="text"] {
+    padding: 10px;
+    border: 1px;
+    width: 50%;
+    box-shadow: 0 0 20px 40px #0505790f;
+  }
+  
+  /* Styling for text area input */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 25px 4px #0a15ac0f;
+    margin-bottom: 12px;
+    padding:20px;
+    border-radius: 10px;
+    border:2px solid #d41a1a
+  
+  }
+  
+  /* Styling for the button within the contact form */
+  .contact-desc > form > button {
+    padding: 0.7rem 2rem;
+    font-weight: bold;
+    background-color:#b2afc6;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 20px;
+    color: rgb(0, 110, 255);
+    cursor:progress;
+  }
+  
+  /* Styling for the button on hover within the contact form */
+  .contact-desc > form > button:hover {
+    background-color: rgb(0, 110, 255);
+    border: 2px solid rgb(0, 110, 255);
+    color: rgb(232, 15, 15);
+
+  }
+  
+  /* Styling for the footer section */
+  .footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    background-color: rgb(153, 178, 212);
+    font-style: italic;
+  }
+
+
+/* Basic styling for footer */
+footer {
+    background-color: #31508a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+/* Styling for the container of navigation links */
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  
+  /* Styling for individual navigation links */
+  .nav-links > a {
+    text-decoration: none;
+    color: #ea2719;
+    margin-left: 2.0rem;
+    cursor: pointer;
+  }
+  
+  /* Styling for navigation links on hover */
+  .nav-links > a:hover {
+    color: rgb(223, 65, 189);
+  }
